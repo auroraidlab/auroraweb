@@ -19,7 +19,9 @@ PRD를 바탕으로 제작한 첫 웹사이트 시안입니다. 별도 빌드나
 
 ## Vercel 배포
 
-GitHub 저장소 `auroraidlab/auroraweb`을 Vercel 프로젝트에 연결합니다. `vercel.json`에서 정적 파일 폴더를 `dist`로 지정하고 설치 및 빌드 명령을 비워 두었습니다. 별도 프레임워크나 패키지 설치가 필요하지 않습니다.
+GitHub 저장소 `auroraidlab/auroraweb`을 Vercel 프로젝트에 연결합니다. `vercel.json`에서 정적 파일 폴더를 `dist`로 지정했습니다. 별도 프레임워크나 패키지 설치가 필요하지 않습니다. 빌드 명령은 `node scripts/prepare-social.mjs`이며 공유 메타데이터를 생성합니다.
+
+공유 이미지는 `dist/og-image.jpg` (1200×630)입니다. ImageGen으로 제작한 컨셉 이미지로, 실제 프로젝트 사진이 아닙니다. 빌드 시 Vercel의 `VERCEL_PROJECT_PRODUCTION_URL` (없으면 `VERCEL_URL`)을 이용해 Open Graph와 X 카드에 절대 이미지 주소를 삽입합니다. Vercel 프로젝트에서 시스템 환경변수 노출이 활성화되어 있어야 합니다. 커스텀 도메인 변경 시 다시 배포하면 반영됩니다.
 
 Vercel 프로젝트의 Root Directory는 저장소 루트(기본값)로 사용합니다. GitHub에 올라간 저장소에는 `sense-order` 상위 폴더가 없으므로 Root Directory에 `sense-order`를 입력하지 않습니다. `main` 브랜치에 푸시하면 연결된 Vercel 프로젝트가 다시 배포됩니다.
 

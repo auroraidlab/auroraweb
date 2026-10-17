@@ -1,0 +1,5 @@
+Tool: built-in ImageGen
+Final delivery: dist/og-image.jpg, 1200x630, JPEG
+Concept artwork, not a photograph of an actual Aurora ID Lab project.
+
+Use case: ads-marketing. Asset: refined Open Graph social sharing card for AURORA SENSE ORDER, a Korean spatial design philosophy atelier. Wide landscape exactly 1200x630 ratio. Editorial monograph cover, warm off-white #F9F8F6 paper, charcoal #292B25 type, muted olive accents. Left 60 percent generous warm paper negative space with exquisite restrained Korean serif typography, exact large Korean text on two lines: "보이지 않는" and "감각의 질서." Above small tracked sans serif "AURORA SENSE ORDER". Below small "Aurora ID Lab · Archive & Practice". Right 40 percent quiet photoreal architectural close-up, warm plaster wall corner and stone floor with a diagonal beam of afternoon sunlight, soft cinematic shadow, earthy beige, no furniture needed. Fine understated editorial rule near bottom. Impeccable type clarity, luxurious stillness, highly legible thumbnail, all important content inset 70px from edges. No devices, no mockup border, no extra text, no watermark. Not a real project photograph; purely conceptual brand artwork.
