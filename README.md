@@ -17,7 +17,13 @@ PRD를 바탕으로 제작한 첫 웹사이트 시안입니다. 별도 빌드나
 - 문의는 메일 앱을 여는 링크입니다. 이메일 주소의 실제 수신 가능 여부는 확인하지 않았습니다.
 - 웹폰트는 Google Fonts에서 불러오며 오프라인에서는 시스템 명조와 산세리프로 표시됩니다.
 
-## GitHub Pages 배포
+## Vercel 배포
+
+GitHub 저장소 `auroraidlab/auroraweb`을 Vercel 프로젝트에 연결합니다. `vercel.json`에서 정적 파일 폴더를 `dist`로 지정하고 설치 및 빌드 명령을 비워 두었습니다. 별도 프레임워크나 패키지 설치가 필요하지 않습니다.
+
+Vercel 프로젝트의 Root Directory는 저장소 루트(기본값)로 사용합니다. GitHub에 올라간 저장소에는 `sense-order` 상위 폴더가 없으므로 Root Directory에 `sense-order`를 입력하지 않습니다. `main` 브랜치에 푸시하면 연결된 Vercel 프로젝트가 다시 배포됩니다.
+
+## GitHub Pages 배포 (대안)
 
 이 `sense-order` 폴더가 Git 저장소 루트입니다. `.github/workflows/pages.yml`은 `main` 브랜치에 푸시할 때 `dist`를 GitHub Pages로 배포합니다. 빌드나 별도 배포 토큰은 필요하지 않습니다.
 
